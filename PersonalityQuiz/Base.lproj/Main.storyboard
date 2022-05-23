@@ -39,25 +39,25 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🐶" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fR5-HD-tav">
-                                <rect key="frame" x="8" y="52" width="45" height="48"/>
+                                <rect key="frame" x="20" y="52" width="45" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🐱" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IVN-nk-Clh">
-                                <rect key="frame" x="375" y="52" width="45" height="48"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🐰" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ksc-n7-EWQ">
-                                <rect key="frame" x="8" y="870" width="45" height="48"/>
+                                <rect key="frame" x="363" y="52" width="45" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🐢" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yel-3T-bnG">
-                                <rect key="frame" x="375" y="870" width="45" height="48"/>
+                                <rect key="frame" x="363" y="836" width="45" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🐰" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ksc-n7-EWQ">
+                                <rect key="frame" x="20" y="836" width="45" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -66,19 +66,19 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="yel-3T-bnG" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ksc-n7-EWQ" secondAttribute="trailing" constant="8" symbolic="YES" id="OfP-ec-tR4"/>
-                            <constraint firstAttribute="bottom" secondItem="yel-3T-bnG" secondAttribute="bottom" constant="8" id="RPk-2n-1Bd"/>
-                            <constraint firstItem="IVN-nk-Clh" firstAttribute="leading" secondItem="fR5-HD-tav" secondAttribute="trailing" constant="322" id="Twz-eP-K8A"/>
-                            <constraint firstAttribute="bottom" secondItem="ksc-n7-EWQ" secondAttribute="bottom" constant="8" id="XL3-Js-nev"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yel-3T-bnG" secondAttribute="trailing" constant="8" id="Zub-1z-4RB"/>
+                            <constraint firstItem="IVN-nk-Clh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="1pM-fB-viV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yel-3T-bnG" secondAttribute="bottom" constant="8" id="61j-Pd-1dr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ksc-n7-EWQ" secondAttribute="bottom" constant="8" id="HdS-BO-oXN"/>
+                            <constraint firstItem="fR5-HD-tav" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="J1s-48-W3I"/>
+                            <constraint firstItem="ksc-n7-EWQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="QYe-xX-LvO"/>
+                            <constraint firstItem="IVN-nk-Clh" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="fR5-HD-tav" secondAttribute="trailing" constant="8" symbolic="YES" id="SrT-3j-obx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IVN-nk-Clh" secondAttribute="trailing" constant="20" id="TNl-BM-ju7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yel-3T-bnG" secondAttribute="trailing" constant="20" id="WCw-vv-dmW"/>
                             <constraint firstItem="apu-4o-4Dr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="bF0-fa-fGj"/>
                             <constraint firstItem="apu-4o-4Dr" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="dpb-qC-QD0"/>
-                            <constraint firstItem="IVN-nk-Clh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="gdt-r3-58x"/>
-                            <constraint firstItem="fR5-HD-tav" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="iF8-eg-n4o"/>
+                            <constraint firstItem="yel-3T-bnG" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ksc-n7-EWQ" secondAttribute="trailing" constant="8" symbolic="YES" id="eEZ-kn-aaY"/>
+                            <constraint firstItem="fR5-HD-tav" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="gVH-xy-Ioi"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="apu-4o-4Dr" secondAttribute="trailing" constant="8" id="mGl-zs-fRw"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IVN-nk-Clh" secondAttribute="trailing" constant="8" id="mkT-wt-W7i"/>
-                            <constraint firstItem="fR5-HD-tav" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qnf-LJ-eRI"/>
-                            <constraint firstItem="ksc-n7-EWQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="v5j-cr-cal"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -247,6 +247,26 @@
                     </view>
                     <navigationItem key="navigationItem" id="sk2-3B-mbd"/>
                     <connections>
+                        <outlet property="multiLabel1" destination="7i1-KW-Wsn" id="LSr-Pg-OwR"/>
+                        <outlet property="multiLabel2" destination="4a7-ya-8qF" id="2jl-jN-gRh"/>
+                        <outlet property="multiLabel3" destination="FTU-Kh-J3n" id="IN0-EY-fwQ"/>
+                        <outlet property="multiLabel4" destination="Ocv-pp-HKc" id="Tt8-F2-CEO"/>
+                        <outlet property="multiSwitch1" destination="v3i-KX-EIs" id="7VD-YR-u8I"/>
+                        <outlet property="multiSwitch2" destination="tJ6-Q5-ai3" id="EUF-3r-ndM"/>
+                        <outlet property="multiSwitch3" destination="1Sf-QS-dJX" id="V30-8t-3K3"/>
+                        <outlet property="multiSwitch4" destination="w5p-Ru-k2t" id="ZhW-Si-GeD"/>
+                        <outlet property="multipleStackView" destination="fYn-gV-lw6" id="tIn-0v-TwH"/>
+                        <outlet property="questionLabel" destination="uv8-Ae-YlF" id="Upa-5y-1tF"/>
+                        <outlet property="questionProgressView" destination="4k3-8Y-0Un" id="9ZA-s3-b4Q"/>
+                        <outlet property="rangedLabel1" destination="k2M-vV-mAB" id="wHi-T2-RI2"/>
+                        <outlet property="rangedLabel2" destination="mMO-2D-ala" id="o1z-iv-LhC"/>
+                        <outlet property="rangedSlider" destination="uYP-Ue-0Er" id="oVo-Ht-kpE"/>
+                        <outlet property="rangedStackView" destination="kb5-sW-QKF" id="ye2-Rq-NrX"/>
+                        <outlet property="singleButton1" destination="gLO-6P-dVG" id="Euu-2M-WHo"/>
+                        <outlet property="singleButton2" destination="SK6-VG-5wJ" id="z95-B9-kSC"/>
+                        <outlet property="singleButton3" destination="biK-hd-HIi" id="ekJ-mg-3b3"/>
+                        <outlet property="singleButton4" destination="bSf-eo-Luo" id="IHt-nu-yPL"/>
+                        <outlet property="singleStackView" destination="Tcb-fm-fvA" id="izi-5F-83w"/>
                         <segue destination="RqO-Id-Bij" kind="show" id="Jvk-rY-F0Z"/>
                     </connections>
                 </viewController>

@@ -15,6 +15,7 @@
 		895301452835654300FFCCED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 895301432835654300FFCCED /* LaunchScreen.storyboard */; };
 		8953014D283571BB00FFCCED /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8953014C283571BB00FFCCED /* QuestionViewController.swift */; };
 		8953014F283571E400FFCCED /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8953014E283571E400FFCCED /* ResultsViewController.swift */; };
+		895C922D283BFD4B00F94308 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895C922C283BFD4B00F94308 /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		895301462835654300FFCCED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8953014C283571BB00FFCCED /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		8953014E283571E400FFCCED /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		895C922C283BFD4B00F94308 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				8953013A2835654100FFCCED /* SceneDelegate.swift */,
 				8953013C2835654100FFCCED /* IntroductionViewController.swift */,
 				8953013E2835654100FFCCED /* Main.storyboard */,
+				895C922C283BFD4B00F94308 /* Question.swift */,
 				8953014C283571BB00FFCCED /* QuestionViewController.swift */,
 				8953014E283571E400FFCCED /* ResultsViewController.swift */,
 				895301412835654300FFCCED /* Assets.xcassets */,
@@ -147,6 +150,7 @@
 				8953013D2835654100FFCCED /* IntroductionViewController.swift in Sources */,
 				895301392835654100FFCCED /* AppDelegate.swift in Sources */,
 				8953014D283571BB00FFCCED /* QuestionViewController.swift in Sources */,
+				895C922D283BFD4B00F94308 /* Question.swift in Sources */,
 				8953014F283571E400FFCCED /* ResultsViewController.swift in Sources */,
 				8953013B2835654100FFCCED /* SceneDelegate.swift in Sources */,
 			);
