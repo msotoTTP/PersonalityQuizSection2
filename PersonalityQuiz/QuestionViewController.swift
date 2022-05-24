@@ -98,14 +98,6 @@ class QuestionViewController: UIViewController {
             rangedStackView.isHidden = false
         }
     }
-    
-    func updateSingleStack(using answers: [Answer]) {
-        singleButton1.setTitle(answers[0].text, for: .normal)
-        singleButton2.setTitle(answers[1].text, for: .normal)
-        singleButton3.setTitle(answers[2].text, for: .normal)
-        singleButton4.setTitle(answers[3].text, for: .normal)
-    }
-    
 
     /*
     // MARK: - Navigation
